@@ -7,7 +7,7 @@ curl -i -X POST -H 'Content-Type: application/json' http://127.0.0.1:2525/impost
       "responses": [
         {
           "proxy": {
-            "to": "https://accommodation.preprod113.atrpm.com",
+            "to": "https://preprod113",
             "mode": "proxyAlways",
             "predicateGenerators": [
               {
