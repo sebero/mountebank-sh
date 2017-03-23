@@ -1,7 +1,7 @@
 #!/bin/bash
 source config.cfg
 curl -i -X POST -H 'Content-Type: application/json' http://$mountebank_server:2525/imposters --data '{
-  "port": 9000,
+  "port": 8001,
   "protocol": "http",
   "name": "chucknorris",
   "stubs": [
@@ -9,7 +9,7 @@ curl -i -X POST -H 'Content-Type: application/json' http://$mountebank_server:25
       "responses": [
         {
           "proxy": {
-            "to": "https://api.chucknorris.io/jokes/random",
+            "to": "https://api.chucknorris.io",
             "mode": "proxyAlways",
             "predicateGenerators": [
               {

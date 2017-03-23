@@ -1,0 +1,109 @@
+{
+  "protocol": "http",
+  "port": 8001,
+  "name": "chucknorris",
+  "requests": [],
+  "stubs": [
+    {
+      "predicates": [
+        {
+          "deepEquals": {
+            "method": "GET"
+          }
+        },
+        {
+          "deepEquals": {
+            "path": "/jokes/random"
+          }
+        },
+        {
+          "deepEquals": {
+            "query": {}
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "date": "Thu, 23 Mar 2017 22:46:25 GMT",
+              "content-type": "application/json",
+              "transfer-encoding": "chunked",
+              "connection": "close",
+              "set-cookie": [
+                "__cfduid=d43055005792c548fcd9f99766ac9a2d71490309185; expires=Fri, 23-Mar-18 22:46:25 GMT; path=/; domain=.chucknorris.io; HttpOnly"
+              ],
+              "access-control-allow-origin": "*",
+              "access-control-allow-credentials": "true",
+              "access-control-allow-methods": "GET, HEAD",
+              "access-control-allow-headers": "Content-Type, Accept, X-Requested-With",
+              "cache-control": "no-cache",
+              "via": "1.1 vegur",
+              "server": "cloudflare-nginx",
+              "cf-ray": "3444ed3688e161b7-BCN",
+              "content-encoding": "gzip"
+            },
+            "body": "H4sIAAAAAAAAA3TNQUvEMBAF4L8S5lybtSwqvS2yFxEP4kUISExnm9m2mTJJGor438WtIB48Pt7jfR/gbMKeZYU25HGsgByHtywjtOBTmmNrtNE2Rkyxdj67IbAIxdpzTEbT1BttF5usGH2pr376OfRQAXXQApfH1+Fmvzzv1+P57kD+OF0/FKjgl9mUmf4QxEafecBo9L8Xix0zQgsvHlVh6ZTJu11zO+DE0b7jlhRFFWyiBdVhQiFngzqxbNvm/ptUTxdTRSdYsFMrZ1GFTttDU8PnFwAAAP//AwAMy2oHKwEAAA==",
+            "_mode": "binary"
+          }
+        },
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "date": "Thu, 23 Mar 2017 22:47:22 GMT",
+              "content-type": "application/json",
+              "transfer-encoding": "chunked",
+              "connection": "close",
+              "set-cookie": [
+                "__cfduid=d5636d43533914f84decfbca2de75de4b1490309241; expires=Fri, 23-Mar-18 22:47:21 GMT; path=/; domain=.chucknorris.io; HttpOnly"
+              ],
+              "access-control-allow-origin": "*",
+              "access-control-allow-credentials": "true",
+              "access-control-allow-methods": "GET, HEAD",
+              "access-control-allow-headers": "Content-Type, Accept, X-Requested-With",
+              "cache-control": "no-cache",
+              "via": "1.1 vegur",
+              "server": "cloudflare-nginx",
+              "cf-ray": "3444ee9808d16187-BCN",
+              "content-encoding": "gzip"
+            },
+            "body": "H4sIAAAAAAAAA3TNsUoEMRCA4VcZpl43hWixnVpYiCsWFkrgiMnsZu5ymSWZ3LmI7y6eglhY//D97+id0ixlxSG3lDpkL3nTSsIBo+pSB2uscbWS1t7H5ndZSuHaR6lqDe9na9zBqSvWnPLZT1/yjB1ywAHT28X+PtHd4+Zh+3w1Xr48nV+PR+zwd/N9WfjPgsWareyoWvMvcXCpEQ54KwFkmqhQgJsvA8YTAhoJZp4UVGBKawfHyD5CJKhHnjStEMgnzhRgkgK1LVSgaqE8a4QiLYcorRK4V06sa48fnwAAAP//AwBdDZm7NQEAAA==",
+            "_mode": "binary"
+          }
+        },
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "date": "Thu, 23 Mar 2017 22:47:28 GMT",
+              "content-type": "application/json",
+              "transfer-encoding": "chunked",
+              "connection": "close",
+              "set-cookie": [
+                "__cfduid=d82dcaac7401f9081de956b7985abb73b1490309247; expires=Fri, 23-Mar-18 22:47:27 GMT; path=/; domain=.chucknorris.io; HttpOnly"
+              ],
+              "access-control-allow-origin": "*",
+              "access-control-allow-credentials": "true",
+              "access-control-allow-methods": "GET, HEAD",
+              "access-control-allow-headers": "Content-Type, Accept, X-Requested-With",
+              "cache-control": "no-cache",
+              "via": "1.1 vegur",
+              "server": "cloudflare-nginx",
+              "cf-ray": "3444eebddbde6187-BCN",
+              "content-encoding": "gzip"
+            },
+            "body": "H4sIAAAAAAAAA3SNTUvEMBCG/8o457oB8WJv4sVFKOhlPQQkzY7t2CZTMpPKIv536SqIB4/v5/OBMRgNUk7Y5jrPDXKU/FLLjC2OZou23nkXVMl0F8capyylsO5GUfOO0+BdWIOF4t05vvzJlzxgg3zEFlN/6B/k0D3Fq+v77vlxbze1v8UGfzHflIX/IFi8e5OJ1Lt/L9YwV8IW77YddOchxFFESSGLgQlESQsZAWcIGfZFcgoZeoqhKoG8go0E+s6pAVqpnMA4EWyehWIKE8eJ8wAhH7daHjYxskIoSRtYSJaZ4Mh0gZ9fAAAA//8DABuU9G1RAQAA",
+            "_mode": "binary"
+          }
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "http://127.0.0.1:2525/imposters/8001"
+    }
+  }
+}
