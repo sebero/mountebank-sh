@@ -1,1 +1,3 @@
-curl -X GET http://127.0.0.1:2525/imposters/$1
+#!/bin/bash
+source ./config.cfg
+curl -X GET http://$mountebank_server/imposters/$1

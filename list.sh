@@ -1,1 +1,3 @@
-curl -H 'Content-Type: application/json' http://127.0.0.1:2525/imposters 
+#!/bin/bash
+source ./config.cfg
+curl -H 'Content-Type: application/json' http://$mountebank_server:2525/imposters 
