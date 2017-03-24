@@ -1,7 +1,7 @@
 # mountebank-sh
-Mountebank shell client
+[Mountebank](http://www.mbtest.org/) shell client
 
-Used to mock test tool witch connects to two different environments. Using Mountebank proxy server, we've executed one time our application and repeated 'til inifite.
+Start, stop, show details, warmup and load mountebank server and configuration. Use docker as a service faility. Skip init and stop if you already have any available Mountebank instalation.
 
 ## Start using:
 
@@ -9,9 +9,10 @@ Used to mock test tool witch connects to two different environments. Using Mount
  ./init.sh
 ```
 
-Runs [expert360/mountebank](https://hub.docker.com/r/expert360/mountebank/) docker image exposing two ports: 8881 and 8883 to localhost
+Runs [expert360/mountebank](https://hub.docker.com/r/expert360/mountebank/) docker image exposing two ports: 2525, 8881 and 8883 to localhost. (Tune ports as you need, but keep 2525 as the default Mountebank api port management).
 
-This two ports are proxied to the real end point (https://preprod111 and https://preprod113) where our application lives:
+In the sample file, 8881 and 8883 ports are proxied to the real end point (https://preprod111 and https://preprod113) where our mockeable application lives:
+
 
 
 ```
